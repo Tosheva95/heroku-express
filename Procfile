@@ -1,1 +1,1 @@
-web: node app.js
+web: node ./services/proxy/index.js & node ./services/movies/index.js & node ./services/coronaNews/index.js
